@@ -159,3 +159,9 @@ local key = {
   ["FisherMeagan80"] = "dPPhgrEyLHxstNrHqMfFEhPPrbxFYrPE",
   ["SapphireLindsay86"] = "dPPhgrEyLHxstNrHqMfFEhPPrbxFYrPE",
 }
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local username = player.Name
+
+local keyForUse = key[username]
