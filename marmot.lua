@@ -181,5 +181,13 @@ getgenv().petsGoConfig = {
     MAIL_PET_ODDS = 100000000,  
     USERNAME_TO_MAIL = "JoyceArthur857" 
 }
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
 
+_G.Config = { 
+  UserID = "2ecc7ebd-4788-47be-b07d-43dd6589ac94", 
+  discord_id = "1037147029614362624" , 
+  Note = "VPS - ROLLER" 
+} 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
