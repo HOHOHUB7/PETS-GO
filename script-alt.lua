@@ -2,7 +2,7 @@ local nicks = {"JoyceArthur857", "HendersonJudy2"} -- TRADERs
 
 math.randomseed(os.time())
 local escolha = math.random(1, #nicks)
-local resultnick = strings[escolha]
+local resultnick = nicks[escolha]
 
 getgenv().petsGoConfig = {
     EVENT_EGG = true,
