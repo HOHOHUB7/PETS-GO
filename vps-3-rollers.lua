@@ -8,5 +8,14 @@ _G.Config = {
     Note = "VPS - 3", 
 } 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HOHOHUB7/PETS-GO/refs/heads/main/script-alt.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HOHOHUB7/PETS-GO/refs/heads/main/script-alt.lua"))()
+    end)
+end)
+
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
+    end)
+end)
