@@ -1,4 +1,4 @@
-local nicks = {"QcgIgTPuzxO", "QcgIgTPuzxO"} -- TRADERs
+local nicks = {"teGQdDkjAPb", "QcgIgTPuzxO"} -- TRADERs
 
 math.randomseed(os.time())
 local escolha = math.random(1, #nicks)
