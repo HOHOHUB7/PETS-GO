@@ -18,4 +18,5 @@ getgenv().petsGoConfig = {
     USERNAME_TO_MAIL = resultnick -- Mail Pet To Username
 }
 
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9c5277f03e1f5e02a5c36e0df5674e67.lua"))()
