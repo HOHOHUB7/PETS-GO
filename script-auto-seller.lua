@@ -1,7 +1,3 @@
-
-script_key="dOfSrLWDyauFbCSkkEFAHvWlUvslwqrV";
-
-
 getgenv().petsGoConfig = {
     DISCORD_ID = "1037147029614362624",
     PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1305321371978436608/WA_DConhxKPY4ELAB-jWllN3XEsbQnCL9rnGsltO9eueOFzYz4vSubFLTS8Df918dTze",
@@ -55,4 +51,5 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_USERNAME = "FASTZIN_STORE", 
     MAIL_GEMS_MIN = 1000000,  
 }
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/074ae419ea26f2a773d8e592958ec2e8.lua"))() 
